@@ -1,7 +1,13 @@
 package BaekJoon;
 
+import java.util.Scanner;
+
+// 문자와 문자열
 public class Ba_1 {
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextLine();
+        int i = sc.nextInt();
+        System.out.println(s.charAt(i-1));
     }
 }
